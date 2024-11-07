@@ -1,0 +1,29 @@
+.register-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Đảm bảo container không dính vào footer */
+    background-color: #f0f2f5;
+    padding-top: 10px; /* Điều chỉnh giá trị này để tạo khoảng cách từ header */
+    padding-bottom: 50px; /* Điều chỉnh giá trị này để tạo khoảng cách từ footer */
+}
+
+.register-title {
+    font-size: 30px;  
+    font-weight: bold; 
+    margin: 20px 0; /* Tạo khoảng cách giữa title và các phần tử khác */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.register-form {
+    background-color: white;
+    padding: 40px;  
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.wide-form {
+    width: 700px; /* Điều chỉnh độ rộng theo ý bạn */
+    margin: 0 auto; /* Căn giữa form */
+  }

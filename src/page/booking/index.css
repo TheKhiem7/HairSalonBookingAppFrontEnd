@@ -1,0 +1,12 @@
+/* src/page/booking/BookingForm.css */
+
+.form-container {
+    background-image: url('https://inhat.vn/hcm/wp-content/uploads/2019/08/5-min-17.jpg'); /* Đường dẫn đến ảnh nền */
+    background-size: cover; /* Đảm bảo ảnh phủ kín */
+    background-position: center; /* Căn giữa ảnh */
+    height: 100vh; /* Chiều cao của phần tử */
+    display: flex;
+    justify-content: center; /* Căn giữa form theo chiều ngang */
+    align-items: center; /* Căn giữa form theo chiều dọc */
+}
+
